@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify</title>
+</head>
+
+<body>
+    <div class=" container flex bg-black">
+
+        <div class="left">
+            <div class="close">
+                <img class="invert" src="img/close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img src="img/logo.svg" class="invert" alt="Spotify"></div>
+                <ul>
+                    <li><img src="img/home.svg" class="invert" alt="Home">Home</li>
+                    <li><img src="img/search.svg" class="invert" alt="Home">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="img/playlist.svg" alt="playlist">
+                    <h2>Your Library</h2>
+
+                </div>
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">
+                            <span>Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span>Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span>About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgerContainer">
+
+                        <img class="hamburger" src="img/hamburger.svg" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Login</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylist">
+                <h1>Spotify Playlist</h1>
+                <div class="cardContainer">
+                    <div data-folder="cs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"
+                                fill="none">
+                                <!-- Green circular background -->
+                                <circle cx="12" cy="12" r="12" fill="#00FF00" />
+
+                                <!-- Black SVG path -->
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cdb57d46c1ca65e3fac2540dd" alt="">
+                        <h2>Lofi</h2>
+                        <p>Lofi Songs (Sukoon Vibes) 💜</p>
+                    </div>
+                    <div data-folder="ncs" class="card">  
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"
+                                fill="none">
+                                <!-- Green circular background -->
+                                <circle cx="12" cy="12" r="12" fill="#00FF00" />
+
+                                <!-- Black SVG path -->
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c29e0dc9f8ac7c8bb52d17cc5" alt="">
+                        <h2>Lofi Slowed + Reverbed</h2>
+                        <p>Lofi Songs Slowed + Reverbed Hindi Lofi/Soft Hindi Songs</p>
+                    </div>
+                    <div data-folder="EngilishHitSongs" class="card">  
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"
+                                fill="none">
+                                <!-- Green circular background -->
+                                <circle cx="12" cy="12" r="12" fill="#00FF00" />
+
+                                <!-- Black SVG path -->
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d0000b2731e63de6489803c2b39e7f8e5" alt="">
+                        <h2>English Hit Songs</h2>
+                        <p>English hit song in the world</p>
+                    </div>
+                    <div data-folder="EnglishSongs" class="card">  
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"
+                                fill="none">
+                                <!-- Green circular background -->
+                                <circle cx="12" cy="12" r="12" fill="#00FF00" />
+
+                                <!-- Black SVG path -->
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b10e1b62f7739ba58178eeea" alt="">
+                        <h2>English Songs</h2>
+                        <p>Best chill in night</p>
+                    </div>
+                    <div data-folder="Lofi" class="card">  
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"
+                                fill="none">
+                                <!-- Green circular background -->
+                                <circle cx="12" cy="12" r="12" fill="#00FF00" />
+
+                                <!-- Black SVG path -->
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c4092c42deed447d1ade77247" alt="">
+                        <h2>Lofi Mashups</h2>
+                        <p>Mind Relaxing Lofi Mashups</p>
+                    </div>
+                    <div data-folder="RapSongs" class="card">  
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"
+                                fill="none">
+                                <!-- Green circular background -->
+                                <circle cx="12" cy="12" r="12" fill="#00FF00" />
+
+                                <!-- Black SVG path -->
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67656300005f1f97c0586ce1e1ce1638e3099e" alt="">
+                        <h2>Rap Songs</h2>
+                        <p>New Trending Rap Songs</p>
+                    </div>
+                    <div data-folder="bgm" class="card">  
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"
+                                fill="none">
+                                <!-- Green circular background -->
+                                <circle cx="12" cy="12" r="12" fill="#00FF00" />
+
+                                <!-- Black SVG path -->
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67656300005f1f0f39b9622d7904485d268972" alt="">
+                        <h2>BGM</h2>
+                        <p>Shorts Songs for chill</p>
+                    </div>
+                    <div data-folder="ArijitSongs" class="card">  
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"
+                                fill="none">
+                                <!-- Green circular background -->
+                                <circle cx="12" cy="12" r="12" fill="#00FF00" />
+
+                                <!-- Black SVG path -->
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://mosaic.scdn.co/300/ab67616d00001e021aa5adad8593923dcdf1a7d0ab67616d00001e026404721c1943d5069f0805f3ab67616d00001e02b0f9ceb59927ab76fe6269beab67616d00001e02bca30634e6cad10b97c03d21" alt="">
+                        <h2>Arijit Singh Songs</h2>
+                        <p>By Music Juke</p>
+                    </div>
+                    <div data-folder="BollywoodSongs" class="card">  
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"
+                                fill="none">
+                                <!-- Green circular background -->
+                                <circle cx="12" cy="12" r="12" fill="#00FF00" />
+
+                                <!-- Black SVG path -->
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e029e3c231915b32be5cdc75547" alt="">
+                        <h2>Bollywood Songs</h2>
+                        <p>By Mashups Songs</p>
+                    </div>
+                    <div data-folder="KabirSingh" class="card">  
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"
+                                fill="none">
+                                <!-- Green circular background -->
+                                <circle cx="12" cy="12" r="12" fill="#00FF00" />
+
+                                <!-- Black SVG path -->
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02220ebc9738e57ce79a79ca3e" alt="">
+                        <h2>Kabir Singh</h2>
+                        <p>By Arijit Singh</p>
+                    </div>
+                    <div data-folder="HalfGirlfriend" class="card">  
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"
+                                fill="none">
+                                <!-- Green circular background -->
+                                <circle cx="12" cy="12" r="12" fill="#00FF00" />
+
+                                <!-- Black SVG path -->
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d0000b273aca529b2fdfaabf2f50fc9e3" alt="">
+                        <h2>Half Girlfriend</h2>
+                        <p>Various Artists</p>
+                    </div>
+                    <div data-folder="HoneySing" class="card">  
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"
+                                fill="none">
+                                <!-- Green circular background -->
+                                <circle cx="12" cy="12" r="12" fill="#00FF00" />
+
+                                <!-- Black SVG path -->
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e0265ce8c712e4fb894bc88461b" alt="">
+                        <h2>Honey Singh</h2>
+                        <p>Yo Yo Honey Singh Songs</p>
+                    </div>
+                    <div data-folder="PunjabiSongs" class="card">  
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"
+                                fill="none">
+                                <!-- Green circular background -->
+                                <circle cx="12" cy="12" r="12" fill="#00FF00" />
+
+                                <!-- Black SVG path -->
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://mosaic.scdn.co/300/ab67616d00001e021a8c4618eda885a406958dd0ab67616d00001e0266f5887005ca1e7070404847ab67616d00001e029a1216ff15c27e59d46ed480ab67616d00001e029c9e2915ef115db34428fcfa" alt="">
+                        <h2>Punjabi Songs</h2>
+                        <p>New Hit Songs</p>
+                    </div>
+                    <div data-folder="RemixMashups" class="card">  
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"
+                                fill="none">
+                                <!-- Green circular background -->
+                                <circle cx="12" cy="12" r="12" fill="#00FF00" />
+
+                                <!-- Black SVG path -->
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8471417469142afe4133536cd3" alt="">
+                        <h2>Remix Mashups</h2>
+                        <p>New Trending Songs</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="abovebar">
+                    <div class="songinfo">
+
+                    </div>
+                    <div class="songbuttons">
+                        <img class="buttonsize" id="previous" src="img/prevsong.svg" alt="">
+                        <img class="buttonsize" id="play" src="img/play.svg" alt="">
+                        <img class="buttonsize" id="next" src="img/nextsong.svg" alt="">
+                    </div>
+                    <div class="timevol">
+                        <div class="songtime">
+
+                        </div>
+                        <div class="volume">
+                            <img src="img/volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="range" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
