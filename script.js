@@ -4,8 +4,6 @@ let currentSong = new Audio();
 let songs;
 let currFolder;
 
-const audioTune = new Audio("C:\Users\SAI\Desktop\New VS Code Program\New folder\Project\Spotify\songs\KabirSingh");
-
 function secondsToMinuteSeconds(seconds) {
     // Ensure the input is a number and not negative
     if (isNaN(seconds) || seconds < 0) {
